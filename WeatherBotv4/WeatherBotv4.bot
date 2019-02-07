@@ -8,6 +8,16 @@
       "appId": "",
       "appPassword": "",
       "id": "1"
+    },
+    {
+      "type": "luis",
+      "name": "WeatherBotv4Bot",
+      "appId": "luis-application-id",
+      "version": "0.1",
+      "authoringKey": "authoring-key",
+      "subscriptionKey": "authoring-key",
+      "region": "westus",
+      "id": "158"
     }
   ],
   "padlock": "",

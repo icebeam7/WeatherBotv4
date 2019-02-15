@@ -2,20 +2,47 @@
   "name": "WeatherBotv4",
   "services": [
     {
+      "type": "abs",
+      "tenantId": "9a3b52db-0430-4a9a-83a4-01135f3bc91e",
+      "subscriptionId": "c7ec4c76-4fa8-4d5b-8ae0-03d9e21786dd",
+      "resourceGroup": "WeatherBotv4-rg",
+      "serviceName": "WeatherBotv4",
+      "name": "WeatherBotv4",
+      "id": "1",
+      "appId": "0a34606f-495f-42ee-bd49-c77167dace89"
+    },
+    {
+      "type": "blob",
+      "connectionString": "DefaultEndpointsProtocol=https;AccountName=weatherbotv4storage;AccountKey=g/u17Z8+8YTGjQMEmRkWFSeG1Rt42hftuSzAvmmiIsMrfagh2D5QautKPFr6F+UanbiZmiJz51uYEu34GhBCAw==;",
+      "tenantId": "9a3b52db-0430-4a9a-83a4-01135f3bc91e",
+      "subscriptionId": "c7ec4c76-4fa8-4d5b-8ae0-03d9e21786dd",
+      "resourceGroup": "WeatherBotv4-rg",
+      "serviceName": "weatherbotv4storage",
+      "id": "2"
+    },
+    {
       "type": "endpoint",
-      "name": "development",
-      "endpoint": "http://localhost:3978/api/messages",
       "appId": "",
       "appPassword": "",
-      "id": "1"
+      "endpoint": "http://localhost:3978/api/messages",
+      "name": "development",
+      "id": "3"
+    },
+    {
+      "type": "endpoint",
+      "appId": "0a34606f-495f-42ee-bd49-c77167dace89",
+      "appPassword": "5gY]3{u#hw]qs9Z7ElverAm2:>T3GPNe",
+      "endpoint": "https://weatherbotv4app.azurewebsites.net/api/messages",
+      "name": "production",
+      "id": "4"
     },
     {
       "type": "luis",
       "name": "WeatherBotv4Bot",
-      "appId": "luis-application-id",
+      "appId": "61fc183f-0eba-4a88-a48b-678751d1cef4",
       "version": "0.1",
-      "authoringKey": "authoring-key",
-      "subscriptionKey": "authoring-key",
+      "authoringKey": "7d82662fe6b4485188c1909502798d7d",
+      "subscriptionKey": "7d82662fe6b4485188c1909502798d7d",
       "region": "westus",
       "id": "158"
     }
